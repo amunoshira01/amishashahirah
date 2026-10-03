@@ -1,17 +1,14 @@
-# CSC649 Setup Activity
+# CSC649 Setup Experiment
 
-## Overview
-This Python program accepts a sentence from the user, counts the total number of words, and calculates the total character count including spaces. If the input is empty, a warning message is displayed.
+**Student ID:** 2024439116  
+**Course:** CSC649  
+
+## Description
+This simple Python program takes a sentence input from the user, calculates the total word count, and displays the total character count (including spaces). It also handles empty input gracefully.
 
 ## How to Run
-1. Open the project in PyCharm.
-2. Run `main.py`.
-3. Enter a sentence when prompted.
-
-## Test Results
-- **Normal Sentence:** Inputting `"Hello world"` outputs 2 words and 11 characters.
-- **Empty Input:** Pressing Enter displays `"You did not enter a sentence."`.
-- **Extra Spaces:** Inputting `"   Hello   World   "` correctly identifies 2 words.
-
-## Limitation
-Word counting relies on whitespace splitting, so punctuation attached to words (e.g., `"hello,"`) is counted as part of the word.
+1. Ensure Python 3.12 is installed.
+2. Open the terminal in PyCharm.
+3. Run the script using:
+   ```bash
+   python main.py
