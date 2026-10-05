@@ -11,4 +11,4 @@ This simple Python program takes a sentence input from the user, calculates the 
 2. Open the terminal in PyCharm.
 3. Run the script using:
    ```bash
-   python main.py
+   python main.py"# amishashahirah" 
